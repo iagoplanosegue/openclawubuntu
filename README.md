@@ -10,6 +10,22 @@
 
 ---
 
+## 📋 Pré-requisitos
+
+**1. Acesso root ou sudo**
+```bash
+sudo -i
+```
+
+**2. Confirmar Ubuntu 24.04**
+```bash
+lsb_release -a
+```
+
+**3. Verificar conexão**
+```bash
+curl -I https://github.com
+```
 ## ⚡ Instalação rápida
 
 ```bash
@@ -39,22 +55,6 @@ openclaw onboard
 
 ---
 
-## 📋 Pré-requisitos
-
-**1. Acesso root ou sudo**
-```bash
-sudo -i
-```
-
-**2. Confirmar Ubuntu 24.04**
-```bash
-lsb_release -a
-```
-
-**3. Verificar conexão**
-```bash
-curl -I https://github.com
-```
 
 ---
 
