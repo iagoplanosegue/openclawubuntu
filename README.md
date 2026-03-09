@@ -1,4 +1,4 @@
-# ⬡ OpenClaw — Ubuntu 24.04 LTS
+ ⬡ OpenClaw — Ubuntu 24.04 LTS
 
 [![Versão](https://img.shields.io/badge/versão-1.0.0-e95420?style=flat-square&labelColor=0d1117)](https://github.com/iagoplanosegue/openclawubuntu)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04_LTS-e95420?style=flat-square&logo=ubuntu&logoColor=white&labelColor=0d1117)](https://ubuntu.com)
@@ -26,11 +26,13 @@ lsb_release -a
 ```bash
 curl -I https://github.com
 ```
+
+---
+
 ## ⚡ Instalação rápida
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/iagoplanosegue/openclawubuntu/main/install.sh \
-  -o install.sh && chmod +x install.sh && sudo bash install.sh
+curl -fsSL https://raw.githubusercontent.com/iagoplanosegue/openclawubuntu/main/install.sh | sudo bash
 ```
 
 Depois de concluir:
@@ -53,10 +55,9 @@ openclaw onboard
 
 > VPS não tem interface gráfica — o SO precisa de apenas 1~2 GB, liberando muito mais para o Node.js.
 
----
-
 
 ---
+
 
 ## 🔍 O que o script faz
 
@@ -132,5 +133,5 @@ MIT © [Iago Plano Segue](https://github.com/iagoplanosegue)
 ---
 
 <div align="center">
-  <sub>Guia completo em <a href="https://planosegue.com/ubuntu">planosegue.com/ubuntu</a> &nbsp;·&nbsp; Versão macOS em <a href="https://planosegue.com/mac">planosegue.com/mac</a></sub>
+  <sub>Guia completo em <a href="https://planosegue.com/ubuntu">planosegue.com/ubuntu</a> &nbsp;·&nbsp; Versão macOS em <a href="https://planosegue.com/ubuntu">planosegue.com/ubuntu</a></sub>
 </div>
